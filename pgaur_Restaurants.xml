@@ -1,0 +1,90 @@
+<pgaur_Restaurants xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pgaur_Restaurants.xsd"> 
+<?xml version="1.0"?> 
+<!--Praharshita Gaur pgaur 250885563 8March2019-->
+<Restaurants>
+    <RestaurantID>R01</RestaurantID>
+    <Preference>1</Preference>
+    <RestaurantName>Ozen</RestaurantName>
+    <Cuisine>Japanese</Cuisine>
+    <Menu>
+        <MenuItem id="Sushi">
+<Dish>Crab</Dish>
+<Dish>Ikura</Dish>
+<Dish>Masago</Dish>
+</MenuItem>
+        <MenuItem id="Tempura">
+<Dish>Shrimp</Dish>
+<Dish>Vegetable</Dish>
+</MenuItem>
+        <MenuItem id="Soup">
+<Dish>Nabeyaki</Dish>
+<Dish>Yosenabe</Dish>
+</MenuItem>
+</Menu>
+    <Deliverycost>$14</Deliverycost>
+    <Timesordered>23</Timesordered>
+    <EmployeesorderedID>
+<RestaurantAssociationID id="R01">
+<Employee>F1</Employee>
+<Employee>F2</Employee>
+<Employee>F3</Employee>
+<Employee>F4</Employee>
+</RestaurantAssociationID>
+    </EmployeesorderedID>
+ <Phone> 5195553200 </Phone>
+    <Current>true</Current>
+<RestaurantID>R02</RestaurantID>
+     <Preference>2</Preference>
+    <RestaurantName>Abruzzi&apos;s Italian Kitchen </RestaurantName>
+    <Cuisine>Italian</Cuisine>
+    <Menu>
+        <MenuItem id="Pizza">
+<Dish> Deep Dish</Dish>
+<Dish> Thin Crust </Dish>
+</MenuItem>
+        <MenuItem id="Pasta">
+<Dish>Rigatoni</Dish >
+<Dish> Conchilgie </Dish >
+<Dish> Ziti </Dish >
+</MenuItem>
+    </Menu>
+    <Deliverycost> $10.45 </Deliverycost>
+    <Timesordered>14</Timesordered>
+    <EmployeesorderedID>
+<RestaurantAssociationID id="R02">
+<Employee>F1</Employee>
+<Employee>F2</Employee>
+<Employee>F3</Employee>
+<Employee>F4</Employee>
+</RestaurantAssociationID>
+    </EmployeesorderedID>    
+<Phone> 5195554321 </Phone>
+    <Current>true</Current>
+    <RestaurantID>R03</RestaurantID>
+    <Preference>3</Preference>
+    <RestaurantName>Sherlock&apos;s Hearth&amp; Ember </RestaurantName>
+    <Cuisine>English</Cuisine>
+    <Menu>
+        <MenuItem id="Dinner"> 
+<Dish> Bangers and Mash </Dish>
+<Dish> Liver and Onions </Dish>
+</MenuItem>
+        <MenuItem id="Starters">
+<Dish> Grilled Halloumi (White Cheese)</Dish>
+<Dish> Panko Coated Squid Rings </Dish>
+</MenuItem>
+    </Menu>
+    <Deliverycost> $21.37 </Deliverycost>
+    <Timesordered>14</Timesordered>
+    <EmployeesorderedID>
+        <RestaurantAssociationID id="R03">
+<Employee>F1</Employee>
+<Employee>F2</Employee>
+<Employee>F3</Employee>
+<Employee>F4</Employee>
+</RestaurantAssociationID>
+    </EmployeesorderedID>    
+<Phone> 5195558888 </Phone>
+    <Current>false</Current>
+</Restaurants>

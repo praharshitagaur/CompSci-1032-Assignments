@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- Praharshita Gaur pgaur 250885563 8March2019 --> 
+         <xs:element name="Restaurants">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="RestaurantID" type="xs:string"></xs:element>
+                           <xs:element name="Preference" type="xs:int"></xs:element>
+                           <xs:element name="RestaurantName" type="xs:string"></xs:element>
+                           <xs:element name="Cuisine" type="xs:string"></xs:element>
+                           <xs:element name="Menu">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="MenuItem" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Dish" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Deliverycost" type="xs:string"></xs:element>
+                           <xs:element name="Timesordered" type="xs:int"></xs:element>
+                           <xs:element name="EmployeesorderedID">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="RestaurantAssociationID">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Employee" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Phone" maxOccurs="unbounded"></xs:element>
+                           <xs:element name="Current" type="xs:boolean"></xs:element>
+                           <xs:element name="RestaurantID" type="xs:string"></xs:element>
+                           <xs:element name="Preference" type="xs:int"></xs:element>
+                           <xs:element name="RestaurantName" type="xs:string"></xs:element>
+                           <xs:element name="Cuisine" type="xs:string"></xs:element>
+                           <xs:element name="Menu">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="MenuItem" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Dish" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Deliverycost" type="xs:string"></xs:element>
+                           <xs:element name="Timesordered" type="xs:int"></xs:element>
+                           <xs:element name="EmployeesorderedID">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="RestaurantAssociationID">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Employee" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Phone" maxOccurs="unbounded"></xs:element>
+                           <xs:element name="Current" type="xs:boolean"></xs:element>
+                           <xs:element name="RestaurantID" type="xs:string"></xs:element>
+                           <xs:element name="Preference" type="xs:int"></xs:element>
+                           <xs:element name="RestaurantName" type="xs:string"></xs:element>
+                           <xs:element name="Cuisine" type="xs:string"></xs:element>
+                           <xs:element name="Menu">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="MenuItem" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Dish" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Deliverycost" type="xs:string"></xs:element>
+                           <xs:element name="Timesordered" type="xs:int"></xs:element>
+                           <xs:element name="EmployeesorderedID">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="RestaurantAssociationID">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Employee" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Phone" maxOccurs="unbounded"></xs:element>
+                           <xs:element name="Current" type="xs:boolean"></xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
